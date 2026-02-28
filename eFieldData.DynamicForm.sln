@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eFieldData.DynamicForm.Domain", "src/eFieldData.DynamicForm.Domain/eFieldData.DynamicForm.Domain.csproj", "{9BCFCD4A-7A37-4E29-8B4D-F8940FC8A74E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eFieldData.DynamicForm.Application", "src/eFieldData.DynamicForm.Application/eFieldData.DynamicForm.Application.csproj", "{1ED95B84-40E0-4167-B929-0D5A1D8DA718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eFieldData.DynamicForm.Infrastructure", "src/eFieldData.DynamicForm.Infrastructure/eFieldData.DynamicForm.Infrastructure.csproj", "{0FCBCA70-178A-4094-B41B-96444A729E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eFieldData.DynamicForm.API", "src/eFieldData.DynamicForm.API/eFieldData.DynamicForm.API.csproj", "{3FC6A024-224A-445C-8E56-91AF31CB19B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+EndGlobal
