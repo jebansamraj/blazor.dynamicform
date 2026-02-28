@@ -77,6 +77,19 @@ Use partial classes for custom extensions and never modify scaffold-generated fi
 7. Open form view and submit values.
 8. Open submissions list and detail pages.
 
+
+## Windows Path Length Troubleshooting
+This repository includes `Directory.Build.props` that redirects `obj`/`bin` to short root-level folders (`.b/obj` and `.b/bin`) to avoid `MSBuild` path-length failures in deep directories.
+
+If you still get path length errors:
+1. Move the repo to a shorter path (example: `C:\src\eFieldData.DynamicForm`).
+2. Enable long paths in Windows policy/registry.
+3. Clean and rebuild:
+   ```bash
+   dotnet clean eFieldData.DynamicForm.sln
+   dotnet build eFieldData.DynamicForm.sln
+   ```
+
 ## Production Build Steps
 - Backend:
   ```bash

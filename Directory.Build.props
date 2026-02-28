@@ -1,0 +1,11 @@
+<Project>
+  <!--
+    Mitigate Windows MAX_PATH issues when the repository is located in a deep folder.
+    Keep intermediate/build output paths short and centralized.
+  -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory).b\obj\</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory).b\bin\</BaseOutputPath>
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+  </PropertyGroup>
+</Project>
